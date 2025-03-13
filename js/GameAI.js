@@ -35,7 +35,7 @@ class GameAI {
         //enable orbitcotrols auto rotate
         this.game.gameState.game.controls.autoRotate = true;
         //set speed to randomly to -3 or 3
-        this.game.gameState.game.controls.autoRotateSpeed = Math.random() > 0.5 ? -3 : 3;
+        this.game.gameState.game.controls.autoRotateSpeed = 10;
 
     }
 

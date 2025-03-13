@@ -9,7 +9,7 @@ class GameState{
       this.ui = new GameUI();
       this.ai = new GameAI(this.game);
       this.playerBalls = [];
-      this.aiOn = false;
+      this.aiOn = true;
       this.turnTimer = 0;
       this.initGame();
       this.charging = false;
@@ -144,7 +144,7 @@ class GameState{
     startTurn() {
       if (this.state == 'gameover') return;
       // enable movement
-      this.timer = 30;
+      this.timer = 60;
       this.tickTimer();
       this.state = 'turn';
    
@@ -155,7 +155,7 @@ class GameState{
 
       }
       this.ui.updateBalls(this.numberedBallsOnTable, this.sides);
-      const str = this.turn == 'player1' ? 'Player 1' : 'Player 2';
+      const str = this.turn == 'player1' ? 'Player 1' : 'Black Label AI';
       this.ui.log(`${str} to play`);
 
       if (this.turn == 'player2') {
