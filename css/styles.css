@@ -23,16 +23,16 @@ body{
 
 #playBtn{
   position: absolute;
-  color: white;
-  background-color: #123ecd;
-  border-radius: 8px;
-  border: none;
-  padding: 10px;
-  font-size: 30px;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 11;
+    color: red;
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    font-size: 50px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
 }
 
 #playBtn:hover{
@@ -92,8 +92,9 @@ body{
 }
 
 .player1 {
-  left: 5px;
+  right: 5px;
   background-color: #0055cc;
+  top: 100px;
 }
 
 .player.active {
