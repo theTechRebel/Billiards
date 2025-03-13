@@ -93,8 +93,7 @@ body{
 
 .player1 {
   right: 5px;
-  background-color: #0055cc;
-  top: 100px;
+  background-color: rgb(210, 43, 43,0.75);
 }
 
 .player.active {
@@ -104,7 +103,8 @@ body{
 
 .player2 {
   right: 5px;
-  background-color: #ffa500;
+  background-color: rgb(210, 43, 43,0.75);
+  top: 100px;
 }
 
 .player h5 {

@@ -1,5 +1,12 @@
-## Billiards 8-Ball 
-8 Ball game made with THREE.js with cannon-es physics engine. 
+## Black Label Pool Game 
+Black Label Pool Game made with THREE.js with cannon-es physics engine. 
+
+## Running the game
+Install node http server globally
+`npm install http-server -g`
+Then cd into the root directory and run the following:
+`http-server -o /`
+Then go to `http://127.0.0.1:8080/` to play the game.
 
 ## Play Now
 - https://billiards.vercel.app/
